@@ -1,0 +1,19 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function monitor(marka_m,model_m,masa_m){
+ this.marka=marka_m;
+ this.model=model_m;
+ this.masa=masa_m;
+ }
+monitor.prototype.wypisz=function(){
+ alert(this.marka +"  "+ this.model +"  "+ this.masa)
+ }
+ var monitor1=new monitor('LG', '32UN880', '10,3');
+ var monitor2=new monitor('Philips', '288EA2', '5,6');
+monitor1.wypisz(); 
+monitor2.wypisz();
+ </script>
+ </head>
+<body>
+</html>
